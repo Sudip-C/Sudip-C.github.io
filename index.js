@@ -25,3 +25,7 @@ document.getElementById("resume-button-2").addEventListener("click", function() 
 	redirect()
 	download()
 });
+
+GitHubCalendar(".calendar", "Sudip-C", {
+    responsive: true
+  });
