@@ -6,14 +6,14 @@ document.querySelector("#menu-icon").addEventListener("click", (event) => {
 
 function download() {
 	let link = document.createElement("a");
-	link.href = "SudipChowdhury_fw22_0295.pdf";
-	link.download = "SudipChowdhury_fw22_0295.pdf";
+	link.href = "sudip_chowdhury_Resume.pdf";
+	link.download = "sudip_chowdhury_Resume.pdf";
 	link.click();
 	link.remove();
 }
 
 function redirect() {
-	window.open("SudipChowdhury_fw22_0295.pdf");
+	window.open("sudip_chowdhury_Resume.pdf");
 }
 
 document.getElementById("resume-button-1").addEventListener("click", function() {
