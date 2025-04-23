@@ -6,14 +6,14 @@ document.querySelector("#menu-icon").addEventListener("click", (event) => {
 
 function download() {
 	let link = document.createElement("a");
-	link.href = "Sudip Chowdhury_Full Stack Web Developer.pdf";
-	link.download = "Sudip Chowdhury_Full Stack Web Developer.pdf";
+	link.href = "SudipChowdhury_fw22_0295.pdf";
+	link.download = "SudipChowdhury_fw22_0295.pdf";
 	link.click();
 	link.remove();
 }
 
 function redirect() {
-	window.open("Sudip Chowdhury_Full Stack Web Developer.pdf");
+	window.open("SudipChowdhury_fw22_0295.pdf");
 }
 
 document.getElementById("resume-button-1").addEventListener("click", function() {
